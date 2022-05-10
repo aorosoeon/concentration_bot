@@ -40,13 +40,13 @@ fButton6 = KeyboardButton("5+")
 markupFocus.add(fButton1, fButton2, fButton3, fButton4, fButton5, fButton6)
 
 markupCompletion = ReplyKeyboardMarkup(one_time_keyboard=True)
-fButton1 = KeyboardButton("25%")
-fButton2 = KeyboardButton("50%")
-fButton3 = KeyboardButton("75%")
-fButton4 = KeyboardButton("100%")
-fButton5 = KeyboardButton("125%")
-fButton6 = KeyboardButton("150%")
-markupCompletion.add(fButton1, fButton2, fButton3, fButton4, fButton5, fButton6)
+cButton1 = KeyboardButton("25%")
+cButton2 = KeyboardButton("50%")
+cButton3 = KeyboardButton("75%")
+cButton4 = KeyboardButton("100%")
+cButton5 = KeyboardButton("125%")
+cButton6 = KeyboardButton("150%")
+markupCompletion.add(cButton1, cButton2, cButton3, cButton4, cButton5, cButton6)
 
 def is_known_username(username):
 	known_usernames = ["CHAT_ID"] #chat id needs to be int, I use string here as a placeholder
