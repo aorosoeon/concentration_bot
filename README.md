@@ -10,4 +10,4 @@ I used:
 
 This bot has three commands: set, unset and stats. When you press "set", you get 3 options of concentration period: 20, 30 and 40 minutes. When the time is up, you get notification and then could rate your focus and completion of the task. This info uploads to Google spreadsheet. "unset" - discards a timer. "stats" - shows you info from a spreadsheet in a compact style (for a message).
 
-I run this script from VM in Google Cloud using "nohup" command (for continuous work).
+I run this script from VM in Google Cloud using "nohup" command for continuous work.
