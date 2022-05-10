@@ -1,4 +1,4 @@
-# concentration_bot
+# concentration-bot
 Chatbot for Telegram messenger, which sets a timer for concentration, asks about distractions and success of a task and uploads this info to a google spreadsheet. Something like the Pomodoro Technique with results recording.
 
 I used:
