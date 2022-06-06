@@ -1,5 +1,5 @@
 # concentration_bot
-Chatbot for Telegram messenger, which sets a timer for concentration, asks about distractions and success of a task and uploads this info to a google spreadsheet. Something like the Pomodoro Technique with results recording.
+Chatbot for Telegram messenger, which sets a timer for concentration, asks about distractions and success of a task, and uploads this info to a google spreadsheet. Something like the Pomodoro Technique with results recording.
 
 I used:
 1. AsyncTelebot and a couple of other classes from pyTelegramBotAPI package for connecting to Telegram API
@@ -8,6 +8,6 @@ I used:
 4. asyncio for gathering two tasks - bot.infinity_polling and scheduler
 5. google.oauth2 and gspread for connecting to a google spreadsheet
 
-This bot has three commands: set, unset and stats. When you press "set", you get 3 options of concentration period: 20, 30 and 40 minutes. When the time is up, you get notification and then could rate your focus and completion of the task. This info uploads to Google spreadsheet. "unset" - discards a timer. "stats" - shows you info from a spreadsheet in a compact style (for a message).
+This bot has three commands: set, unset, and stats. When you press "set", you get 3 options of concentration period: 20, 30, and 40 minutes. When the time is up, you get a notification and then could rate your focus and completion of the task. This info uploads to a Google spreadsheet. "unset" - discards a timer. "stats" - shows you info from a spreadsheet in a compact style (for a message).
 
 I run this script from VM in Google Cloud using "nohup" command for continuous work.
