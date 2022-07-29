@@ -3,7 +3,7 @@ Chatbot for Telegram messenger, which sets a timer for concentration, asks about
 
 I used:
 1. AsyncTelebot and a couple of other classes from pyTelegramBotAPI package for connecting to Telegram API
-2. wraps from functools for creating private access mode (idea is not mine, I used code from stackoverflow user "S.D." (https://stackoverflow.com/questions/55437732/how-to-restrict-the-acess-to-a-few-users-in-pytelegrambotapi/68229442#68229442)
+2. wraps from functools for creating private access mode (the idea is not mine, I used code from stackoverflow user "S.D." (https://stackoverflow.com/questions/55437732/how-to-restrict-the-acess-to-a-few-users-in-pytelegrambotapi/68229442#68229442)
 3. aioschedule for creating a timer
 4. asyncio for gathering two tasks - bot.infinity_polling and scheduler
 5. google.oauth2 and gspread for connecting to a google spreadsheet
